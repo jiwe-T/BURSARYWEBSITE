@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
+
+.search-bar {
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 100%; /* Full width */
+}
+
+ul li {
+    width: 100vw; /* Full width of the viewport */
+    box-sizing: border-box; /* Include padding in width calculation */
+    border-bottom: 1px solid black; /* Black border separating each link */
+    padding: 10px 20px; /* Spacing between the content and border */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #008000;
+    font-size: 18px;
+    display: block; /* Ensure the link spans the entire list item */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #ff4500;
+}

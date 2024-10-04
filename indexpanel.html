@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NG-CDF Bursaries</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/NG-CDF.webp" class="logo" alt="NG-CDF Logo">
+    </div>
+    <h1 class="heading"><span class="red">NG-CDF</span> <span class="green">BURSARIES</span><span class="black">  (ADMIN PANEL)</span></h1>
+    <div class="search-bar">
+      <input type="text" id="search" onkeyup="searchConstituency()" placeholder="Search Constituency...">
+    </div>
+  </header>
+
+  <section>
+    <ul id="constituencies-list">
+      <li><a href="#">Ainabkoi</a></li>
+      <li><a href="#">Alego Usonga</a></li>
+      <li><a href="#">Amagoro</a></li>
+      <li><a href="#">Bahati</a></li>
+      <li><a href="#">Balambala</a></li>
+      <li><a href="#">Banisa</a></li>
+      <li><a href="#">Baringo Central</a></li>
+      <li><a href="#">Baringo North</a></li>
+      <li><a href="#">Baringo South</a></li>
+      <li><a href="#">Bobasi</a></li>
+      <li><a href="#">Bomachoge Borabu</a></li>
+      <li><a href="#">Bomachoge Chache</a></li>
+      <li><a href="#">Bonchari</a></li>
+      <li><a href="#">Bomet Central</a></li>
+      <li><a href="#">Bomet East</a></li>
+      <li><a href="#">Bondo</a></li>
+      <li><a href="#">Borabu</a></li>
+      <li><a href="#">Budalangi</a></li>
+      <li><a href="#">Bura</a></li>
+      <li><a href="#">Butula</a></li>
+      <li><a href="#">Changamwe</a></li>
+      <li><a href="#">Chepalungu</a></li>
+      <li><a href="#">Cherangany</a></li>
+      <li><a href="#">Chesumei</a></li>
+      <li><a href="#">Chuka/Igambang'ombe</a></li>
+      <li><a href="#">Dagoretti North</a></li>
+      <li><a href="#">Dagoretti South</a></li>
+      <li><a href="#">Dadaab</a></li>
+      <li><a href="#">Duale</a></li>
+      <li><a href="#">Embu</a></li>
+      <li><a href="#">Endebess</a></li>
+      <li><a href="#">Fafi</a></li>
+      <li><a href="#">Funyula</a></li>
+      <li><a href="#">Galole</a></li>
+      <li><a href="#">Ganze</a></li>
+      <li><a href="#">Garissa Township</a></li>
+      <li><a href="#">Gem</a></li>
+      <li><a href="#">Gichugu</a></li>
+      <li><a href="#">Gilgil</a></li>
+      <li><a href="#">Githunguri</a></li>
+      <li><a href="#">Homa Bay Town</a></li>
+      <li><a href="#">Igembe Central</a></li>
+      <li><a href="#">Igembe North</a></li>
+      <li><a href="#">Igembe South</a></li>
+      <li><a href="#">Ikolomani</a></li>
+      <li><a href="#">Isiolo North</a></li>
+      <li><a href="#">Isiolo South</a></li>
+      <li><a href="#">Jomvu</a></li>
+      <li><a href="#">Kabete</a></li>
+      <li><a href="#">Kabondo Kasipul</a></li>
+      <li><a href="#">Kabuchai</a></li>
+      <li><a href="#">Kacheliba</a></li>
+      <li><a href="#">Kaiti</a></li>
+      <li><a href="#">Kaloleni</a></li>
+      <li><a href="#">Kamukunji</a></li>
+      <li><a href="#">Kapenguria</a></li>
+      <li><a href="#">Karachuonyo</a></li>
+      <li><a href="#">Kasarani</a></li>
+      <li><a href="#">Kasipul</a></li>
+      <li><a href="#">Keiyo North</a></li>
+      <li><a href="#">Keiyo South</a></li>
+      <li><a href="#">Kesses</a></li>
+      <li><a href="#">Kibra</a></li>
+      <li><a href="#">Kibwezi East</a></li>
+      <li><a href="#">Kibwezi West</a></li>
+      <li><a href="#">Kilifi North</a></li>
+      <li><a href="#">Kilifi South</a></li>
+      <li><a href="#">Kiminini</a></li>
+      <li><a href="#">Kipkelion East</a></li>
+      <li><a href="#">Kipkelion West</a></li>
+      <li><a href="#">Kirinyaga Central</a></li>
+      <li><a href="#">Kitui Central</a></li>
+      <li><a href="#">Kitui East</a></li>
+      <li><a href="#">Kitui Rural</a></li>
+      <li><a href="#">Kitui South</a></li>
+      <li><a href="#">Kitui West</a></li>
+      <li><a href="#">Kuresoi North</a></li>
+      <li><a href="#">Kuresoi South</a></li>
+      <li><a href="#">Laikipia East</a></li>
+      <li><a href="#">Laikipia North</a></li>
+      <li><a href="#">Laikipia West</a></li>
+      <li><a href="#">Laisamis</a></li>
+      <li><a href="#">Lang'ata</a></li>
+      <li><a href="#">Likoni</a></li>
+      <li><a href="#">Lugari</a></li>
+      <li><a href="#">Lungalunga</a></li>
+      <li><a href="#">Luanda</a></li>
+      <li><a href="#">Lurambi</a></li>
+      <li><a href="#">Machakos Town</a></li>
+      <li><a href="#">Madaraka</a></li>
+      <li><a href="#">Magarini</a></li>
+      <li><a href="#">Malindi</a></li>
+      <li><a href="#">Mandera East</a></li>
+      <li><a href="#">Mandera North</a></li>
+      <li><a href="#">Mandera South</a></li>
+      <li><a href="#">Mandera West</a></li>
+      <li><a href="#">Marakwet East</a></li>
+      <li><a href="#">Marakwet West</a></li>
+      <li><a href="#">Masinga</a></li>
+      <li><a href="#">Mathare</a></li>
+      <li><a href="#">Mathioya</a></li>
+      <li><a href="#">Matuga</a></li>
+      <li><a href="#">Matungulu</a></li>
+      <li><a href="#">Mbeere North</a></li>
+      <li><a href="#">Mbeere South</a></li>
+      <li><a href="#">Mbooni</a></li>
+      <li><a href="#">Mogotio</a></li>
+      <li><a href="#">Moiben</a></li>
+      <li><a href="#">Molo</a></li>
+      <li><a href="#">Mombasa</a></li>
+      <li><a href="#">Mosop</a></li>
+      <li><a href="#">Mount Elgon</a></li>
+      <li><a href="#">Moyale</a></li>
+      <li><a href="#">Msambweni</a></li>
+      <li><a href="#">Mukurweini</a></li>
+      <li><a href="#">Mumias East</a></li>
+      <li><a href="#">Mumias West</a></li>
+      <li><a href="mvita.php">Mvita</a></li>
+      <li><a href="#">Mwache</a></li>
+      <li><a href="#">Ndhiwa</a></li>
+      <li><a href="#">Nyali</a></li>
+      <li><a href="#">Nyando</a></li>
+      <li><a href="#">Nyatike</a></li>
+      <li><a href="#">Oljororok</a></li>
+      <li><a href="#">Othaya</a></li>
+      <li><a href="#">Rabai</a></li>
+      <li><a href="#">Rachuonyo</a></li>
+      <li><a href="#">Rangwe</a></li>
+      <li><a href="#">Rarieda</a></li>
+      <li><a href="#">Rongo</a></li>
+      <li><a href="#">Ruaraka</a></li>
+      <li><a href="#">Sabatia</a></li>
+      <li><a href="#">Saboti</a></li>
+      <li><a href="#">Saku</a></li>
+      <li><a href="#">Shinyalu</a></li>
+      <li><a href="#">Sirisia</a></li>
+      <li><a href="#">Sotik</a></li>
+      <li><a href="#">South Imenti</a></li>
+      <li><a href="#">Soy</a></li>
+      <li><a href="#">Starehe</a></li>
+      <li><a href="#">Suba North</a></li>
+      <li><a href="#">Suba South</a></li>
+      <li><a href="#">Suna East</a></li>
+      <li><a href="#">Suna West</a></li>
+      <li><a href="#">Tana Delta</a></li>
+      <li><a href="#">Tana River</a></li>
+      <li><a href="#">Taveta</a></li>
+      <li><a href="#">Tetu</a></li>
+      <li><a href="#">Tharaka</a></li>
+      <li><a href="#">Thika Town</a></li>
+      <li><a href="#">Tigania East</a></li>
+      <li><a href="#">Tigania West</a></li>
+      <li><a href="#">Tongaren</a></li>
+      <li><a href="#">Turbo</a></li>
+      <li><a href="#">Turkana Central</a></li>
+      <li><a href="#">Turkana East</a></li>
+      <li><a href="#">Turkana North</a></li>
+      <li><a href="#">Turkana South</a></li>
+      <li><a href="#">Turkana West</a></li>
+      <li><a href="#">Ugenya</a></li>
+      <li><a href="#">Ugunja</a></li>
+      <li><a href="#">Uriri</a></li>
+      <li><a href="#">Vihiga</a></li>
+      <li><a href="#">Wajir East</a></li>
+      <li><a href="#">Wajir North</a></li>
+      <li><a href="#">Wajir South</a></li>
+      <li><a href="#">Wajir West</a></li>
+      <li><a href="#">Wundanyi</a></li>
+      <li><a href="#">West Mugirango</a></li>
+      <li><a href="#">Westlands</a></li>
+      <li><a href="#">Yatta</a></li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
